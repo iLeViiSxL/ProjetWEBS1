@@ -1,6 +1,6 @@
 User
 {
-ID
+ID user
 Adresse mail
 Login
 Password
@@ -13,11 +13,25 @@ Annee
 Etat du compte
 Fond d'ecran
 Couleur
-Amis[]
-Amis attente[]
-Ami rejeter[]
+Amis[ID membre]
+Amis attente[ID user]
+Ami refuser[ID user]
+Evenement[ID evenement]
+Groupe[ID evenement]
+
 }
 
+Publication
+{
+ID
+ID user
+ID groupe
+ID evenement
+ID publication
+Date
+Message
+Like[ID user]
+}
 
 
 Groupe
