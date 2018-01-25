@@ -1,0 +1,30 @@
+User
+{
+ID
+Adresse mail
+Login
+Password
+Nom
+Prenom
+Date de naissance
+Sexe
+Formation
+Annee
+Etat du compte
+Fond d'ecran
+Couleur
+Amis[]
+Amis attente[]
+Ami rejeter[]
+}
+
+
+
+Groupe
+{
+ID
+Nom
+Description
+Mode
+Createur
+}
