@@ -1,0 +1,35 @@
+Compte
+{
+ID
+Adresse mail
+Login
+Password
+Nom
+Prenom
+Date de naissance
+Sexe
+Formation
+Annee
+Compte valide
+Fond d'ecran
+Couleur
+Icone
+}
+
+Groupe
+{
+Nom
+Description
+Admin
+Membres
+Type (private/ public)
+}
+
+Evenement
+{
+Nom
+Description
+Admin
+Menbres
+Type(private/public)
+}
