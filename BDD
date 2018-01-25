@@ -11,24 +11,63 @@ Sexe
 Formation
 Annee
 Compte valide
+//Amis
+Accepte
+Attente
+Rejeter
+Demande
+
 Fond d'ecran
 Couleur
 Icone
 }
+Publication membre
+{
+ID
+Date
+Message
+Like
+}
+Publication groupe
+{
+ID groupe
+ID createur
+Date
+Message
+Like
+Commentaire
+}
+Publication evenement
+{
+ID evenement
+ID createur
+Date
+Message
+Like
+Commentaire
+}
+
 
 Groupe
 {
+ID
 Nom
 Description
 Admin
 Membres
+Demande
 Type (private/ public)
 }
 
 Evenement
 {
+ID
 Nom
+Type
 Description
+Date debut
+Date fin
+Lieu
 Admin
 Menbres
 Type(private/public)
