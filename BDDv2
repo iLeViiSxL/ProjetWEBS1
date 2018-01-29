@@ -1,44 +1,43 @@
 User
 {
-ID user
-Adresse mail
-Login
-Password
-Nom
-Prenom
-Date de naissance
-Sexe
-Formation
-Annee
-Etat du compte
-Fond d'ecran
-Couleur
-Amis[ID membre]
-Amis attente[ID user]
-Ami refuser[ID user]
-Evenement[ID evenement]
-Groupe[ID evenement]
-
+ID user (auto incrementation)
+Adresse mail (string)
+Login (string)
+Password (string)
+Nom (String)
+Prenom (String)
+Date de naissance (Date)
+Sexe (String)
+Formation (String)
+Annee (Date)
+Etat du compte (int)
+Fond d'ecran (String)
+Couleur (String)
+Amis[ID membre] (int[])
+Amis attente[ID user] (int[])
+Ami refuser[ID user] (int[])
+Evenement[ID evenement] (int[])
+Groupe[ID evenement] (int[])
 }
 
 Publication
 {
-ID
-ID user
-ID groupe
-ID evenement
-ID publication
-Date
-Message
-Like[ID user]
+ID (auto incrementation)
+ID user (int)
+ID groupe (int)
+ID evenement (int)
+ID publication (int)
+Date (Date)
+Message (String)
+Like[ID user] (int[])
 }
 
 
 Groupe
 {
-ID
-Nom
-Description
-Mode
-Createur
+ID (auto incrementation)
+Nom (String)
+Description (String)
+Mode (int)
+Createur (int)
 }
